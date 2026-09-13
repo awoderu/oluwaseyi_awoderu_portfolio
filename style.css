@@ -114,28 +114,6 @@ section{
         font-size: 1.6rem;
         color: white;
     }
-
-    .home {
-        flex-direction: column;
-        text-align: center;
-        padding: 12rem 5% 4rem;
-    }
-
-    .home-img {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        margin-bottom: 2rem;
-    }
-
-    .home-img img {
-        width: min(70vw, 32rem);
-        height: min(70vw, 32rem);
-    }
-
-    .home-content {
-        margin-left: 0;
-    }
 }
 
 /* Home section code */
@@ -352,6 +330,48 @@ span{
     box-shadow: 0 0 1.6rem green;
     transform: scale(1.2) translateY(-6px);
     background-color: black;
+}
+
+@media (max-width: 768px) {
+    .home {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 12rem 5% 4rem;
+    }
+
+    .home-img {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+
+    .home-img img {
+        width: min(70vw, 32rem);
+        height: min(70vw, 32rem);
+    }
+
+    .home-content {
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .home-content p {
+        margin: 0 auto 2rem;
+        text-align: center;
+    }
+
+    .social-media {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
 }
 
 /* Carousel gallery styles */

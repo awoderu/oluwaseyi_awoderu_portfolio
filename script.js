@@ -22,3 +22,15 @@ if (menuIcon && navbar) {
     });
   });
 }
+
+// Typed.js animation
+if (document.querySelector('.multiple_text')) {
+  const typed = new Typed('.multiple_text', {
+    strings: ['Digital Designer', 'Web Developer', 'Creative'],
+    typeSpeed: 80,
+    backSpeed: 80,
+    backDelay: 1200,
+    loop: true
+  });
+} 
+  
