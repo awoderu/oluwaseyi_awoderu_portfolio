@@ -893,8 +893,8 @@ img {
     :root{
     --h-one: 'Fascinate Inline', cursive;
     --titre: ;
-    --color-one: #487473;
-    --color-two: #5BC673;
+    --color-one: grey;
+    --color-two: greenyellow;
     --color-three: #a52a2a;
     --color-four: skyblue;
     --color-five: palegreen;
@@ -904,11 +904,10 @@ img {
 
 
 .resume{
-    max-width: 1200px;
-    height: 1200px;
+    max-width: 1300px;
+    height: 800px;
     position: relative;
-    margin-right: 5vh;
-    margin-left: 5vh;
+    
     margin-bottom: 0;
     border-radius: 1em;
     border: 1px solid black;    
@@ -1258,7 +1257,7 @@ bottom: 0.6em;
     position: relative;
 }
 
-.experirnce{
+.experience{
     width: 300px;
     height: 300px;
 }
@@ -1649,15 +1648,16 @@ bottom: 0.6em;
     right: 75px;
     top: 100px;
 }
-.experirnce-box{
+.experience-box{
     position: absolute;
     top: 100px;
-    right: 34px;
+    right: 400px;
+    
 }
 
 .skills-box{
     position: absolute;
-    left: 400px;
+    left: 100px;
     top: 20px;
 
 }
@@ -1680,13 +1680,13 @@ bottom: 0.6em;
 
 .language-box{
     position: absolute;
-    top: 650px;
+    top: 136px;
     right: 62px;
     z-index: 4;
 }
 .certificate-box{
     position: absolute;
-    top: 880px;
+    top: 400px;
     right: 62px;
     
 
@@ -1706,7 +1706,7 @@ header{
 @media screen and (max-width:480px){
     .resume{
      
-        height: 2830px;
+        height: 1500px;
 
         
     }
@@ -1785,16 +1785,16 @@ border-radius:  0.6em 0.6em 0 0;
     z-index: 2;
 }
 
-.experirnce-box{
+.experience-box{
     position: absolute;
-    top: 840px;
+    top: 60px;
     left: 10px;
 }
 
 .skills-box{
     position: absolute;
     left: 10px;
-    top: 1160px;
+    top: 384px;
 
 }
 .social-media-linkedin-box{
@@ -1816,13 +1816,13 @@ border-radius:  0.6em 0.6em 0 0;
 
 .language-box{
     position: absolute;
-    top: 1900px;
+    top: 810px;
     left: 10px;
     z-index: 4;
 }
 
 .certificate-box{
-    top: 2140px;
+    top: 1050px;
     right: 6%;
 
 }
@@ -1853,8 +1853,8 @@ border-radius:  0.6em 0.6em 0 0;
     }
     .scroll-avatar-box2{
         height: 350px;
-    width: 287px;
-    bottom: 0.6em;
+        width: 287px;
+        bottom: 0.6em;
         left: 2%;
     }
     .scroll3{
@@ -1920,7 +1920,7 @@ border-radius:  0.6em 0.6em 0 0;
         z-index: 2;
     }
     
-    .experirnce-box{
+    .experience-box{
         position: absolute;
         top: 80px;
         right: 15%;
@@ -1989,15 +1989,15 @@ border-radius:  0.6em 0.6em 0 0;
         right: 10vw;
         top: 100px;
     }
-    .experirnce-box{
+    .experience-box{
         position: absolute;
-        top: 320px;
-        right: 34px;
+        top: 36px;
+        right: 340px;
     }
     
     .skills-box{
         position: absolute;
-        top: 650px;
+        top: 130px;
         right: 0;
         z-index: 3;
     
@@ -2026,7 +2026,7 @@ border-radius:  0.6em 0.6em 0 0;
         z-index: 4;
     }
     .certificate-box{
-        top: 1070px;
+        top: 560px;
         right: 6%;
 
     }
